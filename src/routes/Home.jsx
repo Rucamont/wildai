@@ -26,9 +26,9 @@ const Home = () => {
   return (
     <div className="page-container">
       <Header />
-      {/* <PhotoCarousel images={imageList}/> */}
+      <PhotoCarousel images={imageList}/>
       
-      {/* <div className="space-between"></div> Espacio adicional */}
+      <div className="space-between"></div> 
       
       <div className="video-container">
         <div className="shadow-overlay"></div>
