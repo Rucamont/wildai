@@ -1,0 +1,14 @@
+/* Estilos para el carrusel */
+.slick-slider {
+    width: 100vw; /* Ajusta el ancho del carrusel al 100% de la ventana */
+    height: 50vh; /* Ajusta la altura al 50% de la ventana o a la altura deseada */
+    margin-left: calc(-50vw + 50%); /* Centra el carrusel en la ventana */
+  }
+  
+  /* Estilos para las imágenes dentro del carrusel */
+  .slick-slider img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del carrusel */
+    height: 100%; /* Ajusta la altura de la imagen al 100% del carrusel */
+    object-fit: cover;
+  }
+  

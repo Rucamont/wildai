@@ -1,0 +1,27 @@
+/* Asegúrate de que la franja-container tenga un estilo de flexbox para distribuir los elementos horizontalmente */
+.search-bar {
+    background-color: #F1F1F1;
+    padding: 20px;
+  }
+  
+  .search-content {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  /* Estilos para el icono de búsqueda */
+  .search-icon {
+    margin-right: 10px;
+    margin-left: 50px;
+
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  .search-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  

@@ -1,0 +1,19 @@
+/* Estilo para el botón Explora en la barra de navegación */
+.navbar-item {
+  height: auto; /* Altura del botón igual a la altura de la barra de navegación */
+
+    padding: 0.5rem 1rem; /* Ajusta el espaciado según sea necesario */
+    background-color: rgb(156, 168, 166); /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto */
+    border-radius: 4px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+  
+  /* Cambio de color al pasar el mouse sobre el botón */
+  .navbar-item:hover {
+    background-color: #6a7176;
+  }
+  .navbar{
+    background-color: rgb(156, 168, 166);
+  }

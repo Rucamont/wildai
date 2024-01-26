@@ -1,0 +1,69 @@
+/* ... otros estilos */
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto; /* Espacio entre la lista y la imagen principal */
+  }
+  
+  .image-list-container {
+    margin-bottom: 10px; /* Espacio entre la lista y la franja inferior de la imagen principal */
+  }
+  
+  .image-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow-x: auto; /* Habilitar desplazamiento horizontal */
+    gap: 10px; /* Espacio entre las imágenes de la lista */
+  }
+  
+  .list-item {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .list-item.active {
+    border-color: #3498db; /* Color del borde cuando la imagen está activa */
+  }
+  
+  .list-image {
+    width: 60px; /* Tamaño de las miniaturas en la lista */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active {
+    transform: scale(1.2);
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nav-button, .autoplay-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .autoplay-button.paused {
+    color: red; /* Color del botón cuando la reproducción está en pausa */
+  }
+  
+  /* ... otros estilos */
+  
